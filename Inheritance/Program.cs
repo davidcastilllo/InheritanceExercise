@@ -34,6 +34,35 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+             var birdOne = new Bird();
+
+             birdOne.IsAlive = (true);
+             birdOne.Age = (7);
+             birdOne.LandSeaAir = ("Air");
+             birdOne.LegCount = (2);
+
+             birdOne.CanFly = (true);
+             birdOne.EatsFromSea = (true);
+             birdOne.WalksOnLand = (true);
+             birdOne.NumberOfFeathers = (100);
+
+             birdOne.display();
+             
+             var reptileOne = new Reptile();
+
+             reptileOne.IsAlive = (true);
+             reptileOne.Age = (9);
+             reptileOne.LandSeaAir = ("Land");
+             reptileOne.LegCount = (4);
+
+             reptileOne.CanSwim = (true);
+             reptileOne.LaysEggs = (true);
+             reptileOne.ColdOrHotBlooded = ("Hot Blooded");
+             reptileOne.ScalesOrScutes = ("Scales");
+
+             reptileOne.display();
+
         }
     }
 }
